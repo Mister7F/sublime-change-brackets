@@ -1,7 +1,7 @@
 import sublime
 import sublime_plugin
 
-brackets = ("()", "{}", "[]", "''", '""')
+brackets = ("()", "{}", "[]", "''", '""', '``')
 
 
 class ChangeBracketsCommand(sublime_plugin.TextCommand):
