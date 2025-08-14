@@ -30,7 +30,6 @@ class ChangeBracketsCommand(sublime_plugin.TextCommand):
             [r for rr in self.regions for r in rr],
             icon="",
             scope="comment | region.yellowish",
-            flags=sublime.DRAW_NO_FILL,
         )
 
         self.view.window().show_input_panel(
